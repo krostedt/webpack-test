@@ -1,11 +1,11 @@
 const webpack = require('webpack');
 const path = require('path');
-var node_dir = __dirname + '/node_modules';
+const node_dir = __dirname + '/node_modules';
 
 const config = {
-  entry: path.resolve(__dirname, 'node_modules') + '/foundation-sites/js/entries/foundation.js',
+  entry: node_dir + '/foundation-sites/js/entries/foundation.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist') + '/build',
     filename: 'foundation.js'
   },
   resolve: {
