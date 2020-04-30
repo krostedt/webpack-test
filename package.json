@@ -2,7 +2,7 @@
   "name": "yarn-webpack-test",
   "dependencies": {
     "foundation-sites": "^6.4.1",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "webpack": "^3.4.1"
   },
   "devDependencies": {
